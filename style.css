@@ -1,0 +1,35 @@
+.my-container {
+    min-width: 75%;
+    border: 2px solid red;
+    padding: 0 30px;
+    max-width: 1310px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.my-col {
+    border: 3px dotted blue;
+}
+
+.articles-section {
+    border: 1px solid black;
+    height: 500px;
+}
+
+@media screen and (max-width: 992px) {
+    #extras-column {
+        display: none;
+    }
+
+    .header-tab, .header-subtab {
+        display: none;
+    }
+
+    @media screen and (max-width: 768px) {
+        #main-column article:not(:first-child) {
+            display: none;
+        }
+    }
+}
