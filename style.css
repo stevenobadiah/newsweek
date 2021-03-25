@@ -15,20 +15,60 @@ ul {
 
 .articles-section {
     border: 1px solid black;
-    height: 500px;
+}
+
+.article-short {
+    display: flex;
+    height: 150px;
+    padding: 15px 0;
+}
+
+.thumbnail {
+    max-width: 25%;
+}
+
+.title {
+    display: block;
+    width: auto;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.debator-container {
+    display: flex;
+    height: 100px;
+    margin: 20px 0;
+}
+
+.debator-pic {
+    height: 80px;
+    width: 80px;
+}
+
+.debate-article {
+    flex: 1;
+}
+
+.opinion {
+    display: flex;
+    height: 95px;
+    padding: 5px 0;
+    border-bottom: 1px solid rgb(192, 192, 192);
 }
 
 @media screen and (max-width: 992px) {
-    #extras-column {
-        display: none;
-    }
-
-    .header-tab, .header-subtab {
+    .nav-item, .subnav-item {
         display: none;
     }
 
     @media screen and (max-width: 768px) {
-        #main-column article:not(:first-child) {
+        #main-column article:nth-child(n+3) {
+            display: none;
+        }
+
+        #main-column h2:nth-child(3) {
             display: none;
         }
     }
