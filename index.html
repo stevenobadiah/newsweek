@@ -12,414 +12,922 @@
 </head>
 <body>
     <div class="container my-container">
-        <header>
-            <div class="d-flex flex-row justify-content-between align-items-end">
-                <div class="p-2">Tue, Mar 23, 2021</div>
-                <div class="p-2">Newsweek</div>
+        <header class="mb-10">
+            <div class="d-flex flex-row justify-content-between align-items-end page-header">
+                <div class="p-2 text-white">Tue, Mar 23, 2021</div>
+                <h1 class="text-white"><strong>Newsweek</strong></h1>
                 <div class="p-2">
-                    <div class="p-2">Log In</div>
-                    <div class="p-2">Subscribe</div>
+                    <span class="p-2 text-white"><strong>Log In</strong></span>
+                    <span class="p-2 text-black bg-warning"></strong>Subscribe</strong></span>
                 </div>
             </div>
-            <ul class="d-flex flex-nowrap" id="header-tab-container">
+            <ul class="d-flex flex-nowrap border-bottom border-secondary" id="header-tab-container">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Users</a>
+                    <a href="#" class="nav-link text-dark">U.S.</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Business</a>
+                    <a href="#" class="nav-link text-dark">World</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Tech & Science</a>
+                    <a href="#" class="nav-link text-dark">Business</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Culture</a>
+                    <a href="#" class="nav-link text-dark">Tech & Science</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Newsgeek</a>
+                    <a href="#" class="nav-link text-dark">Culture</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Sports</a>
+                    <a href="#" class="nav-link text-dark">Newsgeek</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Health</a>
+                    <a href="#" class="nav-link text-dark">Sports</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">The Debate</a>
+                    <a href="#" class="nav-link text-dark">Health</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Experts</a>
+                    <a href="#" class="nav-link text-dark">The Debate</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Vantage</a>
+                    <a href="#" class="nav-link text-dark">Experts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark">Vantage</a>
                 </li>
             </ul>
-            <ul class="d-flex flex-nowrap justify-content-start" id="subheader-tab-container">
+            <ul class="d-flex flex-nowrap justify-content-start border-bottom border-secondary" id="subheader-tab-container">
                 <li class="subnav-item">
-                    <a href="#" class="nav-link text-uppercase">Trending</a>
+                    <a href="#" class="nav-link text-uppercase text-dark">Trending</a>
                 </li>
                 <li class="subnav-item">
-                    <a href="#" class="nav-link text-uppercase">Joe Biden</a>
+                    <a href="#" class="nav-link text-uppercase text-secondary">Joe Biden</a>
                 </li>
                 <li class="subnav-item">
-                    <a href="#" class="nav-link text-uppercase">Donald Truamp</a>
+                    <a href="#" class="nav-link text-uppercase text-secondary">Donald Truamp</a>
                 </li>
                 <li class="subnav-item">
-                    <a href="#" class="nav-link text-uppercase">CoronaVirus</a>
+                    <a href="#" class="nav-link text-uppercase text-secondary">CoronaVirus</a>
                 </li>
                 <li class="subnav-item">
-                    <a href="#" class="nav-link text-uppercase">Stimulus Package</a>
+                    <a href="#" class="nav-link text-uppercase text-secondary">Stimulus Package</a>
                 </li>
                 <li class="subnav-item">
-                    <a href="#" class="nav-link text-uppercase">Vaccine</a>
+                    <a href="#" class="nav-link text-uppercase text-secondary">Vaccine</a>
                 </li>
                 <li class="subnav-item">
-                    <a href="#" class="nav-link text-uppercase">Andrew Cuomo</a>
+                    <a href="#" class="nav-link text-uppercase text-secondary">Andrew Cuomo</a>
                 </li>
                 <li class="subnav-item">
-                    <a href="#" class="nav-link text-uppercase">Gavin Newsom</a>
+                    <a href="#" class="nav-link text-uppercase text-secondary">Gavin Newsom</a>
                 </li>
             </ul>
         </header>
         <main>
             <section class="row articles-section">
-                <div class="col-lg-5 col-md-7 col-sm-12 order-md-2 order-sm-1 my-col" id="main-column">
+                <div class="col-lg-5 col-md-7 col-sm-12 order-md-2 order-sm-1 my-col" id="mainColumn">
                     <h2 class="section-header text-muted text-uppercase">Top Stories</h2>
                     <article class="article-tall">
-                        <img class="img-fluid" src="images/bitcoin.jpg">
-                        <h3 class="title"><strong>Dis a main title</strong></h3>
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h3 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a main title</strong></a>
+                        </h3>
                         <p class="description">Dis a description of the article</p>
                     </article>
-                    <h2 class="section-header text-muted">More Stories</h2>
-                    <article class="article-short">
-                        <img class="thumbnail img-fluid float-left" src="images/bitcoin.jpg">
+                    <h2 class="section-header text-muted text-uppercase">More Stories</h2>
+                    <article class="article-short pt-0 pb-2 border-bottom border-secondary">
+                        <a class="stack-thumbnail" href="#">
+                            <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                        </a>
                         <div class="article-text ml-10">
-                            <h3 class="title"><strong>Dis a title</strong></h3>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
                             <p class="description">Dis a description of the article</p>
                         </div>
                     </article>
-                    <article class="article-short">
-                        <img class="thumbnail img-fluid float-left" src="images/bitcoin.jpg">
+                    <article class="article-short pt-2 pb-2 border-bottom border-secondary">
+                        <a class="stack-thumbnail" href="#">
+                            <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                        </a>
                         <div class="article-text ml-10">
-                            <h3 class="title"><strong>Dis a title</strong></h3>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
                             <p class="description">Dis a description of the article</p>
                         </div>
                     </article>
-                    <article class="article-short">
-                        <img class="thumbnail img-fluid float-left" src="images/bitcoin.jpg">
+                    <article class="article-short pt-2 pb-2 border-bottom border-secondary">
+                        <a class="stack-thumbnail" href="#">
+                            <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                        </a>
                         <div class="article-text ml-10">
-                            <h3 class="title"><strong>Dis a title</strong></h3>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
                             <p class="description">Dis a description of the article</p>
                         </div>
                     </article>
-                    <article class="article-short">
-                        <img class="thumbnail img-fluid float-left" src="images/bitcoin.jpg">
+                    <article class="article-short pt-2 pb-2 border-bottom border-secondary">
+                        <a class="stack-thumbnail" href="#">
+                            <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                        </a>
                         <div class="article-text ml-10">
-                            <h3 class="title"><strong>Dis a title</strong></h3>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
                             <p class="description">Dis a description of the article</p>
                         </div>
                     </article>
-                    <article class="article-short">
-                        <img class="thumbnail img-fluid float-left" src="images/bitcoin.jpg">
+                    <article class="article-short pt-2">
+                        <a class="stack-thumbnail" href="#">
+                            <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                        </a>
                         <div class="article-text ml-10">
-                            <h3 class="title"><strong>Dis a title</strong></h3>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
                             <p class="description">Dis a description of the article</p>
                         </div>
                     </article>
                 </div>
-                <div class="col-lg-3 col-md-5 col-sm-12 order-md-1 order-sm-2 my-col" id="featured-column">
+                <div class="col-lg-3 col-md-5 col-sm-12 order-md-1 order-sm-2 my-col" id="featuredColumn">
                     <h2 class="section-header text-muted text-uppercase">Featured Stories</h2>
                     <article class="article-tall">
-                        <img class="img-fluid" src="images/bitcoin.jpg">
-                        <h3 class="title"><strong>Dis a featired title</strong></h3>
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h4 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a featured title</strong></a>
+                        </h4>
                         <p class="description">Dis a description of the article</p>
                     </article>
                     <article class="article-tall">
-                        <img class="img-fluid" src="images/bitcoin.jpg">
-                        <h3 class="title"><strong>Dis a featired title</strong></h3>
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h4 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a featured title</strong></a>
+                        </h4>
                         <p class="description">Dis a description of the article</p>
                     </article>
                     <article class="article-tall">
-                        <img class="img-fluid" src="images/bitcoin.jpg">
-                        <h3 class="title"><strong>Dis a featired title</strong></h3>
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h4 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a featured title</strong></a>
+                        </h4>
                         <p class="description">Dis a description of the article</p>
                     </article>
                     <article class="article-tall">
-                        <img class="img-fluid" src="images/bitcoin.jpg">
-                        <h3 class="title"><strong>Dis a featired title</strong></h3>
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h4 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a featured title</strong></a>
+                        </h4>
                         <p class="description">Dis a description of the article</p>
                     </article>
                     <article class="article-tall">
-                        <img class="img-fluid" src="images/bitcoin.jpg">
-                        <h3 class="title"><strong>Dis a featired title</strong></h3>
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h4 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a featured title</strong></a>
+                        </h4>
                         <p class="description">Dis a description of the article</p>
                     </article>
                 </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 order-md-3 order-sm-3 my-col" id="extras-column">
+                <div class="col-lg-4 col-md-12 col-sm-12 order-md-3 order-sm-3 my-col" id="extrasColumn">
                     <h2 class="section-header text-muted text-uppercase">The Debate</h2>
                     <div class="debator-container">
-                        <img class="img-fluid debator-pic rounded-circle" src="images/bitcoin.jpg">
+                        <a class="thumbnail debator-pic" href="#">
+                            <img class="img-fluid rounded-circle float-left" src="images/bitcoin.jpg">
+                        </a>
                         <div class="debate-article ml-10">
-                            <h6 class="title"><strong>Israel Has a Legal and Moral Responsibility to Vaccinate Palestinians</strong></h6>
-                            <p class="journalist text-muted">By <strong>Muhammad Shehada</strong></p>
+                            <h6 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Israel Has a Legal and Moral Responsibility to Vaccinate Palestinians</strong></a>
+                            </h6>
+                            <p class="journalist text-muted text-uppercase">By <strong>Muhammad Shehada</strong></p>
                         </div>
                     </div>
                     <div class="debator-container">
                         <div class="debate-article ml-10">
-                            <h6 class="title"><strong>Israel Has a Legal and Moral Responsibility to Vaccinate Palestinians</strong></h6>
-                            <p class="journalist text-muted">By <strong>Muhammad Shehada</strong></p>
+                            <h6 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Israel Has a Legal and Moral Responsibility to Vaccinate Palestinians</strong></a>
+                            </h6>
+                            <p class="journalist text-muted  text-uppercase">By <strong>Muhammad Shehada</strong></p>
                         </div>
-                        <img class="img-fluid debator-pic rounded-circle float-right" src="images/bitcoin.jpg">
+                        <a class="thumbnail debator-pic" href="#">
+                            <img class="img-fluid rounded-circle float-right" src="images/bitcoin.jpg">
+                        </a>
                     </div>
                     <h2 class="section-header text-muted text-uppercase">Opinion</h2>
                     <div class="opinion">
-                        <img class="img-fluid debator-pic rounded-circle float-right" src="images/bitcoin.jpg">
+                        <a class="thumbnail debator-pic" href="#">
+                            <img class="img-fluid rounded-circle float-left" src="images/bitcoin.jpg">
+                        </a>
                         <div class="opinion-text ml-10">
-                            <h3 class="title"><strong>Dis a title</strong></h3>
-                            <p class="journalist text-muted">By <strong>Muhammad Shehada</strong></p>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                            <p class="journalist text-muted text-uppercase">By <strong>Muhammad Shehada</strong></p>
                         </div>
                     </div>
                     <div class="opinion">
-                        <img class="img-fluid debator-pic rounded-circle float-right" src="images/bitcoin.jpg">
+                        <a class="thumbnail debator-pic" href="#">
+                            <img class="img-fluid rounded-circle float-left" src="images/bitcoin.jpg">
+                        </a>
                         <div class="opinion-text ml-10">
-                            <h3 class="title"><strong>Dis a title</strong></h3>
-                            <p class="journalist text-muted">By <strong>Muhammad Shehada</strong></p>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                            <p class="journalist text-muted text-uppercase">By <strong>Muhammad Shehada</strong></p>
                         </div>
                     </div>
                     <div class="opinion">
-                        <img class="img-fluid debator-pic rounded-circle float-right" src="images/bitcoin.jpg">
+                        <a class="thumbnail debator-pic" href="#">
+                            <img class="img-fluid rounded-circle float-left" src="images/bitcoin.jpg">
+                        </a>
                         <div class="opinion-text ml-10">
-                            <h3 class="title"><strong>Dis a title</strong></h3>
-                            <p class="journalist text-muted">By <strong>Muhammad Shehada</strong></p>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                            <p class="journalist text-muted text-uppercase">By <strong>Muhammad Shehada</strong></p>
                         </div>
                     </div>
                     <div class="opinion">
-                        <img class="img-fluid debator-pic rounded-circle float-right" src="images/bitcoin.jpg">
+                        <a class="thumbnail debator-pic" href="#">
+                            <img class="img-fluid rounded-circle float-left" src="images/bitcoin.jpg">
+                        </a>
                         <div class="opinion-text ml-10">
-                            <h3 class="title"><strong>Dis a title</strong></h3>
-                            <p class="journalist text-muted">By <strong>Muhammad Shehada</strong></p>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                            <p class="journalist text-muted text-uppercase">By <strong>Muhammad Shehada</strong></p>
                         </div>
                     </div>
                     <div class="opinion">
-                        <img class="img-fluid debator-pic rounded-circle float-right" src="images/bitcoin.jpg">
+                        <a class="thumbnail debator-pic" href="#">
+                            <img class="img-fluid rounded-circle float-left" src="images/bitcoin.jpg">
+                        </a>
                         <div class="opinion-text ml-10">
-                            <h3 class="title"><strong>Dis a title</strong></h3>
-                            <p class="journalist text-muted">By <strong>Muhammad Shehada</strong></p>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                            <p class="journalist text-muted text-uppercase">By <strong>Muhammad Shehada</strong></p>
                         </div>
                     </div>
                     <div class="opinion">
-                        <img class="img-fluid debator-pic rounded-circle float-right" src="images/bitcoin.jpg">
+                        <a class="thumbnail debator-pic" href="#">
+                            <img class="img-fluid rounded-circle float-left" src="images/bitcoin.jpg">
+                        </a>
                         <div class="opinion-text ml-10">
-                            <h3 class="title"><strong>Dis a title</strong></h3>
-                            <p class="journalist text-muted">By <strong>Muhammad Shehada</strong></p>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                            <p class="journalist text-muted text-uppercase">By <strong>Muhammad Shehada</strong></p>
                         </div>
                     </div>
                     <div class="opinion">
-                        <img class="img-fluid debator-pic rounded-circle float-right" src="images/bitcoin.jpg">
+                        <a class="thumbnail debator-pic" href="#">
+                            <img class="img-fluid rounded-circle float-left" src="images/bitcoin.jpg">
+                        </a>
                         <div class="opinion-text ml-10">
-                            <h3 class="title"><strong>Dis a title</strong></h3>
-                            <p class="journalist text-muted">By <strong>Muhammad Shehada</strong></p>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                            <p class="journalist text-muted text-uppercase">By <strong>Muhammad Shehada</strong></p>
                         </div>
                     </div>
                     <div class="opinion">
-                        <img class="img-fluid debator-pic rounded-circle float-right" src="images/bitcoin.jpg">
+                        <a class="thumbnail debator-pic" href="#">
+                            <img class="img-fluid rounded-circle float-left" src="images/bitcoin.jpg">
+                        </a>
                         <div class="opinion-text ml-10">
-                            <h3 class="title"><strong>Dis a title</strong></h3>
-                            <p class="journalist text-muted">By <strong>Muhammad Shehada</strong></p>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                            <p class="journalist text-muted text-uppercase">By <strong>Muhammad Shehada</strong></p>
                         </div>
                     </div>
                     <div class="opinion">
-                        <img class="img-fluid debator-pic rounded-circle float-right" src="images/bitcoin.jpg">
+                        <a class="thumbnail debator-pic" href="#">
+                            <img class="img-fluid rounded-circle float-left" src="images/bitcoin.jpg">
+                        </a>
                         <div class="opinion-text ml-10">
-                            <h3 class="title"><strong>Dis a title</strong></h3>
-                            <p class="journalist text-muted">By <strong>Muhammad Shehada</strong></p>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                            <p class="journalist text-muted text-uppercase">By <strong>Muhammad Shehada</strong></p>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="in-the-magazine">
+            <section id="inTheMagazine">
                 <h3>In The Magazine</h3>
                 <div class="row">
-                    <div class="col-3 my-col">
-                        Col 1
+                    <div class="col-md-3 col-sm-12 my-col">
+                        <div class="article-tall">
+                            <a href="#">
+                                <img class="img-fluid" src="images/bitcoin.jpg">
+                            </a>
+                            <span class="red-tag text-uppercase">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    Cover
+                                </a>
+                            </span>
+                            <span class="white-tag text-uppercase">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    Business
+                                </a>
+                            </span>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                        </div>
                     </div>
-                    <div class="col-3 my-col">
-                        Col 2
+                    <div class="col-md-3 col-sm-12 my-col">
+                        <div class="article-tall">
+                            <a href="#">
+                                <img class="img-fluid" src="images/bitcoin.jpg">
+                            </a>
+                            <span class="red-tag text-uppercase">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    Cover
+                                </a>
+                            </span>
+                            <span class="white-tag text-uppercase">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    Business
+                                </a>
+                            </span>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                        </div>
                     </div>
-                    <div class="col-3 my-col">
-                        Col 3
+                    <div class="col-md-3 col-sm-12 my-col">
+                        <div class="article-tall">
+                            <a href="#">
+                                <img class="img-fluid" src="images/bitcoin.jpg">
+                            </a>
+                            <span class="red-tag text-uppercase">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    Cover
+                                </a>
+                            </span>
+                            <span class="white-tag text-uppercase">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    Business
+                                </a>
+                            </span>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                        </div>
                     </div>
-                    <div class="col-3 my-col">
-                        Col 4
+                    <div class="col-md-3 col-sm-12 my-col">
+                        <div class="article-tall">
+                            <a href="#">
+                                <img class="img-fluid" src="images/bitcoin.jpg">
+                            </a>
+                            <span class="red-tag text-uppercase">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    Cover
+                                </a>
+                            </span>
+                            <span class="white-tag text-uppercase">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    Business
+                                </a>
+                            </span>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-3 my-col">
-                        Col 1
+                    <div class="col-md-3 col-sm-12 my-col">
+                        <div class="article-tall">
+                            <a href="#" >
+                                <img class="img-fluid" src="images/bitcoin.jpg">
+                            </a>
+                            <span class="red-tag text-uppercase">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    Cover
+                                </a>
+                            </span>
+                            <span class="white-tag text-uppercase">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    Business
+                                </a>
+                            </span>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                        </div>
                     </div>
-                    <div class="col-3 my-col">
-                        Col 2
+                    <div class="col-md-3 col-sm-12 my-col">
+                        <div class="article-tall">
+                            <a href="#">
+                                <img class="img-fluid" src="images/bitcoin.jpg">
+                            </a>
+                            <span class="red-tag text-uppercase">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    Cover
+                                </a>
+                            </span>
+                            <span class="white-tag text-uppercase">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    Business
+                                </a>
+                            </span>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                        </div>
                     </div>
-                    <div class="col-3 my-col">
-                        Col 3
+                    <div class="col-md-3 col-sm-12 my-col">
+                        <div class="article-tall">
+                            <a href="#">
+                                <img class="img-fluid" src="images/bitcoin.jpg">
+                            </a>
+                            <span class="red-tag text-uppercase">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    Cover
+                                </a>
+                            </span>
+                            <span class="white-tag text-uppercase">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    Business
+                                </a>
+                            </span>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                        </div>
                     </div>
-                    <div class="col-3 my-col">
-                        Col 4
+                    <div class="col-md-3 col-sm-12 my-col">
+                        <div class="article-tall">
+                            <a href="#">
+                                <img class="img-fluid" src="images/bitcoin.jpg">
+                            </a>
+                            <span class="red-tag text-uppercase">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    Cover
+                                </a>
+                            </span>
+                            <span class="white-tag text-uppercase">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    Business
+                                </a>
+                            </span>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section id="editors-pick">
+            <section id="editorsPick">
                 <h3>Editor's Pick</h3>
                 <div class="row">
-                    <div class="col-3 my-col">
-                        Col 1
+                    <div class="col-md-3 col-sm-12 my-col">
+                        <div class="article-tall">
+                            <a href="#">
+                                <img class="img-fluid" src="images/bitcoin.jpg">
+                            </a>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                            <p class="description">Dis a description of the article</p>
+                        </div>
                     </div>
-                    <div class="col-3 my-col">
-                        Col 2
+                    <div class="col-md-3 col-sm-12 my-col">
+                        <div class="article-tall">
+                            <a href="#">
+                                <img class="img-fluid" src="images/bitcoin.jpg">
+                            </a>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                            <p class="description">Dis a description of the article</p>
+                        </div>
                     </div>
-                    <div class="col-3 my-col">
-                        Col 3
+                    <div class="col-md-3 col-sm-12 my-col">
+                        <div class="article-tall">
+                            <a href="#">
+                                <img class="img-fluid" src="images/bitcoin.jpg">
+                            </a>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                            <p class="description">Dis a description of the article</p>
+                        </div>
                     </div>
-                    <div class="col-3 my-col">
-                        Col 4
+                    <div class="col-md-3 col-sm-12 my-col">
+                        <div class="article-tall">
+                            <a href="#">
+                                <img class="img-fluid" src="images/bitcoin.jpg">
+                            </a>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                            <p class="description">Dis a description of the article</p>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-3 my-col">
-                        Col 1
+                    <div class="col-md-3 col-sm-12 my-col">
+                        <div class="article-tall">
+                            <a href="#">
+                                <img class="img-fluid" src="images/bitcoin.jpg">
+                            </a>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                            <p class="description">Dis a description of the article</p>
+                        </div>
                     </div>
-                    <div class="col-3 my-col">
-                        Col 2
+                    <div class="col-md-3 col-sm-12 my-col">
+                        <div class="article-tall">
+                            <a href="#">
+                                <img class="img-fluid" src="images/bitcoin.jpg">
+                            </a>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                            <p class="description">Dis a description of the article</p>
+                        </div>
                     </div>
-                    <div class="col-3 my-col">
-                        Col 3
+                    <div class="col-md-3 col-sm-12 my-col">
+                        <div class="article-tall">
+                            <a href="#">
+                                <img class="img-fluid" src="images/bitcoin.jpg">
+                            </a>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                            <p class="description">Dis a description of the article</p>
+                        </div>
                     </div>
-                    <div class="col-3 my-col">
-                        Col 4
+                    <div class="col-md-3 col-sm-12 my-col">
+                        <div class="article-tall">
+                            <a href="#">
+                                <img class="img-fluid" src="images/bitcoin.jpg">
+                            </a>
+                            <h4 class="title">
+                                <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                            </h4>
+                            <p class="description">Dis a description of the article</p>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section id="us-articles">
+            <section id="usArticles">
                 <h3>U.S.</h3>
                 <div class="row">
                     <div class="col-md-4 col-sm-12 my-col">
-                        Col 1
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h4 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                        </h4>
                     </div>
                     <div class="col-md-4 col-sm-12 my-col">
-                        Col 2
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h4 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                        </h4>
                     </div>
                     <div class="col-md-4 col-sm-12 my-col">
                         <div class="d-flex flex-column">
-                            <div class="p-2">Flex item 1</div>
-                            <div class="p-2">Flex item 2</div>
-                            <div class="p-2">Flex item 3</div>
+                            <div class="article-short align-items-start pt-0 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
+                            <div class="article-short align-items-start pt-2 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
+                            <div class="article-short align-items-start pt-2 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="us-articles">
+            <section id="worldArticles">
                 <h3>World</h3>
                 <div class="row">
                     <div class="col-md-4 col-sm-12 my-col">
-                        Col 1
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h4 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                        </h4>
                     </div>
                     <div class="col-md-4 col-sm-12 my-col">
-                        Col 2
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h4 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                        </h4>
                     </div>
                     <div class="col-md-4 col-sm-12 my-col">
                         <div class="d-flex flex-column">
-                            <div class="p-2">Flex item 1</div>
-                            <div class="p-2">Flex item 2</div>
-                            <div class="p-2">Flex item 3</div>
+                            <div class="article-short align-items-start pt-0 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
+                            <div class="article-short align-items-start pt-2 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
+                            <div class="article-short align-items-start pt-2 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="us-articles">
+            <section id="businessArticles">
                 <h3>Business</h3>
                 <div class="row">
                     <div class="col-md-4 col-sm-12 my-col">
-                        Col 1
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h4 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                        </h4>
                     </div>
                     <div class="col-md-4 col-sm-12 my-col">
-                        Col 2
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h4 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                        </h4>
                     </div>
                     <div class="col-md-4 col-sm-12 my-col">
                         <div class="d-flex flex-column">
-                            <div class="p-2">Flex item 1</div>
-                            <div class="p-2">Flex item 2</div>
-                            <div class="p-2">Flex item 3</div>
+                            <div class="article-short align-items-start pt-0 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
+                            <div class="article-short align-items-start pt-2 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
+                            <div class="article-short align-items-start pt-2 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="us-articles">
+            <section id="techScienceArticles">
                 <h3>Tech & Science</h3>
                 <div class="row">
                     <div class="col-md-4 col-sm-12 my-col">
-                        Col 1
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h4 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                        </h4>
                     </div>
                     <div class="col-md-4 col-sm-12 my-col">
-                        Col 2
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h4 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                        </h4>
                     </div>
                     <div class="col-md-4 col-sm-12 my-col">
                         <div class="d-flex flex-column">
-                            <div class="p-2">Flex item 1</div>
-                            <div class="p-2">Flex item 2</div>
-                            <div class="p-2">Flex item 3</div>
+                            <div class="article-short align-items-start pt-0 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
+                            <div class="article-short align-items-start pt-2 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
+                            <div class="article-short align-items-start pt-2 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="us-articles">
+            <section id="cultureArticles">
                 <h3>Culture</h3>
                 <div class="row">
                     <div class="col-md-4 col-sm-12 my-col">
-                        Col 1
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h4 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                        </h4>
                     </div>
                     <div class="col-md-4 col-sm-12 my-col">
-                        Col 2
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h4 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                        </h4>
                     </div>
                     <div class="col-md-4 col-sm-12 my-col">
                         <div class="d-flex flex-column">
-                            <div class="p-2">Flex item 1</div>
-                            <div class="p-2">Flex item 2</div>
-                            <div class="p-2">Flex item 3</div>
+                            <div class="article-short align-items-start pt-0 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
+                            <div class="article-short align-items-start pt-2 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
+                            <div class="article-short align-items-start pt-2 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="us-articles">
+            <section id="sportsArticles">
                 <h3>Sports</h3>
                 <div class="row">
                     <div class="col-md-4 col-sm-12 my-col">
-                        Col 1
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h4 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                        </h4>
                     </div>
                     <div class="col-md-4 col-sm-12 my-col">
-                        Col 2
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h4 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                        </h4>
                     </div>
                     <div class="col-md-4 col-sm-12 my-col">
                         <div class="d-flex flex-column">
-                            <div class="p-2">Flex item 1</div>
-                            <div class="p-2">Flex item 2</div>
-                            <div class="p-2">Flex item 3</div>
+                            <div class="article-short align-items-start pt-0 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
+                            <div class="article-short align-items-start pt-2 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
+                            <div class="article-short align-items-start pt-2 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="us-articles">
+            <section id="expertForumArticles">
                 <h3>Newsweek Expert Forum</h3>
                 <div class="row">
                     <div class="col-md-4 col-sm-12 my-col">
-                        Col 1
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h4 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                        </h4>
                     </div>
                     <div class="col-md-4 col-sm-12 my-col">
-                        Col 2
+                        <a href="#">
+                            <img class="img-fluid" src="images/bitcoin.jpg">
+                        </a>
+                        <h4 class="title">
+                            <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                        </h4>
                     </div>
                     <div class="col-md-4 col-sm-12 my-col">
                         <div class="d-flex flex-column">
-                            <div class="p-2">Flex item 1</div>
-                            <div class="p-2">Flex item 2</div>
-                            <div class="p-2">Flex item 3</div>
+                            <div class="article-short align-items-start pt-0 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
+                            <div class="article-short align-items-start pt-2 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
+                            <div class="article-short align-items-start pt-2 pb-2 border-bottom border-secondary">
+                                <a class="stack-thumbnail" href="#">
+                                    <img class="image img-fluid float-left" src="images/bitcoin.jpg">
+                                </a>
+                                <h5 class="title ml-10">
+                                    <a href="#" class="text-decoration-none text-dark"><strong>Dis a title</strong></a>
+                                </h5>
+                            </div>
                         </div>
                     </div>
                 </div>
